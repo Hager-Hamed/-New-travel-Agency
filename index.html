@@ -1,0 +1,1971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Template - Travel Tour Agency Template" />
+  <meta name="keywords" content="new, html, Tour, travel, creative, booking,  personal, " />
+  <title> New travel Agency</title>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/travel logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/travel logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/travel logo.png">
+  <link rel="manifest" href="./assets/images/travel logo.png">
+  <link rel="mask-icon" href="./assets/images/travel logo.png" color="#5bbad5">
+  <!---==============================================================================================
+        Librairies
+    ==================================================================================================-->
+  <!-- ========== font-awesome =========== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap 5 css -->
+  <link rel="stylesheet" href="assets/css/librairies/bootstrap.min.css" />
+  <!-- ============= swiper  ===========  -->
+  <link rel="stylesheet" href="./assets/lib/swiper/swiper-bundle.min.css" />
+  <!-- =============  owlcarousel ===========  -->
+  <link rel="stylesheet" href="./assets/lib/owlcarousel/assets/owl.carousel.min.css" />
+  <!-- Main style css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/MediaQueries.css" />
+
+</head>
+
+<body>
+
+  <!--===========================================================
+                          Start Navbar
+==============================================================-->
+  <header>
+    <div class="upper-navbar">
+      <div class="container-fluid px-5 ">
+        <div class="row align-items-center">
+          <div class="col-lg-5 d-none d-sm-block ">
+            <div class="upper-navbar-left">
+              <ul class="upper-navbar-contact">
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:seo@seoera.net">seo@seoera.net</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+201067865053">+201067865053</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-none d-sm-block">
+            <a class="navbar-brand" href="index.html">
+              <img loading="lazy" src="assets/images/travel logo.png" alt="logo">
+            </a>
+          </div>
+
+          <div class="col-lg-4 ">
+            <div class="upper-navbar-right">
+
+              <div class="language-select dropdown">
+                <a class="p-2 dropdown-toggle lang-btn d-flex align-items-center gap-1" href="#" role="button"
+                  id="dropdownLanguage" data-bs-toggle="dropdown" aria-expanded="false">
+                  <!-- <img src="assets/images/england.png"> -->
+                  <i class="fa-solid fa-globe"></i>
+                  English
+                </a>
+                <ul class="language-dropdown dropdown-menu p-0" aria-labelledby="dropdownLanguage">
+                  <li><a class="dropdown-item" href="#">
+                      français</a></li>
+                  <li><a class="dropdown-item" href="#">
+                      español</a></li>
+                </ul>
+              </div>
+
+
+              <div class="currency-select dropdown">
+                <a class="p-2 dropdown-toggle currency-btn d-flex align-items-center gap-1" href="#" role="button"
+                  id="dropdownCurrency" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-coins"></i>
+                  USD
+                </a>
+                <ul class="currency-dropdown dropdown-menu p-0" aria-labelledby="dropdownCurrency">
+                  <li><a class="dropdown-item" href="#">USD</a></li>
+                  <li><a class="dropdown-item" href="#">AR</a></li>
+                  <li><a class="dropdown-item" href="#">Eur</a></li>
+                </ul>
+              </div>
+
+
+              <ul class="upper-navbar-contact">
+                <li>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <a href="#">Cart</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-heart"></i>
+                  <a href="#">Favourite</a>
+                </li>
+              </ul>
+              <!-- <ul class="social-media-navbar">
+                <li>
+                  <a href="#" class="facebook" aria-label="facebook-account"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter" aria-label="twitter-account"><i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li>
+                  <a href="#" class="linkedin" aria-label="linkedin-account"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="tripadvisor">
+                    <svg style="width: 25px !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      id="tripadvisor">
+                      <g fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="6" cy="13" r=".5"></circle>
+                        <circle cx="6" cy="13" r="2.5"></circle>
+                        <circle cx="6" cy="13" r="5.5"></circle>
+                        <circle cx="18" cy="13" r=".5"></circle>
+                        <circle cx="18" cy="13" r="2.5"></circle>
+                        <circle cx="18" cy="13" r="5.5"></circle>
+                        <path
+                          d="M4.38 7.5a15.52 15.52 0 0 1 15.24 0M5.5 7.5h-5a5.64 5.64 0 0 1 1.09 2.22M18.5 7.5h5a5.64 5.64 0 0 0-1.09 2.22M10.54 16.1 12 18.5l1.46-2.4">
+                        </path>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class=" instagram" aria-label="instagram-account"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg main-navbar">
+      <div class="container">
+        <a class="navbar-brand d-block d-sm-none" href="index.html">
+          <img loading="lazy" src="assets/images/travel logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Day Tours
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tours.html">Cairo Day Tours</a></li>
+                <li><a class="dropdown-item" href="tours.html">⁠Luxor Day Tours</a></li>
+                <li><a class="dropdown-item" href="tours.html">⁠Hurghada Day Tours</a></li>
+                <li><a class="dropdown-item" href="tours.html">⁠Aswan Day Tours</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Travel Packages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tours.html">⁠Egypt Classical Tours</a></li>
+                <li><a class="dropdown-item" href="tours.html">⁠Egypt Family Tours</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nile Cruises
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Dahabiya Nile Cruise</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Meroe Dahabiya Nile Cruise</a></li>
+                    <li><a class="dropdown-item" href="#">Amoura Dahabiya Nile Cruise</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                <li><a class="dropdown-item" href="">Blogs</a></li>
+                <li><a class="dropdown-item" href="">Contact Us </a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Travel Style</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tailor-made d-none d-sm-block">
+          <a href="#" class="theme-btn btn-style-three">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="side-menu">
+    <a href="#" class="close-side-menu">
+      <i class="fas fa-times"></i>
+    </a>
+    <div class="inner-side">
+      <div class="menu-mobile">
+        <a class="mobile-logo" href="index.html">
+          <img loading="lazy" src="assets/images/travel logo.png" alt="mobile-logo">
+        </a>
+        <ul id="mobile-main-menu" class="mobile nav-menu">
+          <li class="mobile nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item mobile has-dropdown">
+            <a href="sub-category.html" class="nav-link">
+              Day Tours
+              <span class="icon-down icon-down-one">
+                <i class="fas fa-angle-down"></i>
+              </span>
+            </a>
+            <ul class="mobile sub-menu">
+              <li><a href="tours.html"> Cairo Day Tours</a></li>
+              <li><a href="tours.html">⁠Luxor Day Tours</a></li>
+              <li><a href="tours.html">⁠Hurghada Day Tours</a></li>
+              <li><a href="tours.html">⁠Aswan Day Tours</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item mobile has-dropdown">
+            <a href="sub-category.html" class="nav-link">
+              Travel Packages
+              <span class="icon-down icon-down-one">
+                <i class="fas fa-angle-down"></i>
+              </span>
+            </a>
+            <ul class="mobile sub-menu">
+              <li><a href="tours.html">⁠Egypt Classical Tours</a></li>
+              <li><a href="tours.html">⁠Egypt Family Tours</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item mobile has-dropdown">
+            <a href="#" class="nav-link">
+              Nile Cruises
+              <span class="icon-down icon-down-one">
+                <i class="fas fa-angle-down"></i>
+              </span>
+            </a>
+            <ul class="mobile sub-menu">
+              <li><a href="tours.html">Dahabiya Nile Cruise</li>
+            </ul>
+          </li>
+
+          <li class="nav-item mobile has-dropdown">
+            <a href="#" class="nav-link">
+              Pages
+              <span class="icon-down icon-down-one">
+                <i class="fas fa-angle-down"></i>
+              </span>
+            </a>
+            <ul class="mobile sub-menu">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="free-page.html">Blogs </a></li>
+              <li><a href="free-page.html">Contact Us </a></li>
+
+            </ul>
+          </li>
+          <li class="mobile nav-item">
+            <a href="contact.html" class="nav-link">Travel Style</a>
+          </li>
+        </ul>
+        <!-- <div class="mobile-menu-cta mt-20">
+          <a href="#" class="theme-btn btn-style-three">
+            Book Now
+          </a>
+        </div> -->
+      </div>
+
+
+      <!-- <div class="follow-us mt-20">
+        <h3>Follow Us</h3>
+        <div class="line-side"></div>
+       
+        <div class="social-icon">
+          <ul class="social-media-navbar mt-10">
+            <li>
+              <a href="#" aria-label="facebook-account"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="twitter-account"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="instagram-account"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="linkedin-account"> <i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>  -->
+    </div>
+  </div>
+  <div class="close-menu-sidebar backInUp"></div>
+  <!--===========================================================
+                        End Navbar
+    ===========================================================-->
+  <!--=========================================
+           home search
+  =============================================-->
+  <section class="hero-slider position-relative">
+    <div class="container-fluid">
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="hero-home-item">
+              <img src="assets/images/A-wonderful-picture-of-the-Cairo-Tower-and-the-Nile-River-large.webp"
+                alt="home-item-1">
+              <div class="hero-home-content">
+                <h2 class="hero-home-title">Find your next travel experience</h1>
+                  <p>
+                    Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and unforgettable
+                    memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's iconic
+                    destinations—all crafted for your perfect journey.
+                  </p>
+                  <div class="tailor-made d-none d-sm-block">
+                    <a href="#" class="theme-btn btn-style-three">
+                      Learn more
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2-->
+          <div class="swiper-slide ">
+            <div class="hero-home-item">
+              <img
+                src="assets/images/women-tourists-holding-man-s-hand-leading-him-fairy-chimneys-cappadocia-turkey-scaled.jpg">
+              <div class="hero-home-content">
+                <h2 class="hero-home-title">ENJOY YOUR EGYPT VACATION WITH US</h1>
+                  <p>
+                    Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and unforgettable
+                    memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's iconic
+                    destinations—all crafted for your perfect journey.
+                  </p>
+                  <div class="tailor-made d-none d-sm-block">
+                    <a href="#" class="theme-btn btn-style-three">
+                      Learn more
+                    </a>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3-->
+          <div class="swiper-slide ">
+            <div class="hero-home-item">
+              <img src="assets/images/banar_6.jpg">
+              <div class="hero-home-content">
+                <h2 class="hero-home-title">Explore the best destination tours in Egypt & Worldwide</h1>
+                  <p>
+                    Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and unforgettable
+                    memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's iconic
+                    destinations—all crafted for your perfect journey.
+                  </p>
+                  <div class="tailor-made d-none d-sm-block">
+                    <a href="#" class="theme-btn btn-style-three">
+                      Learn more
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=========================================
+            End home search
+  =============================================-->
+
+  <!--===============================================================
+         Popular Tours
+=============================================================-->
+
+  <section class="w-100 travel-tour-second padtobo-40"
+    style="background-image: url(https://routehaven.boomdevstheme.com/wp-content/uploads/2023/11/bg-1.png)">
+    <div class="color-overlay position-relative padding-top padding-bottom main-box padtobo-60">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="section-title text-center ">
+            <div class="col-12">
+              <span class="section-title-span">Popular Tours </span>
+              <h2>
+                Best Holidays and vacations to Egypt
+
+              </h2>
+              <p>
+                Discover our best Egypt travel categories for Egypt trips to create your best Egypt tour plan.
+                Experience
+                the perfect Egyptian travel through our array of best categories. We offer a wide variety of tours in
+                Egypt, offering something for all types of travelers who seek historic experiences or cultural insights
+                and also want to experience luxurious relaxation. Experience the top Egypt vacation packages we offer
+                for
+                your chance to discover memorable moments throughout this historic territory. Every carefully selected
+                package provided by our company offers exceptional Egyptian vacation experiences, which include desert
+                tours alongside spectacular Nile River cruises.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-lg-4 gy-5">
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      Aswan day trip to Abu Simbel
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image" src="./assets/images/145 (30).jpg">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      4 Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Cairo
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      Cairo day tour to Luxor by flight
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image" src="./assets/images/Best Diving Sites in Hurghada78768.webp">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      4 Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Hurghada
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      5 Days Nile Cruise Tour from Luxor
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image"
+                    src="./assets/images/405620074_17922070973816528_6786014677385694138_n.jpg">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      5Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Luxor
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      10 Day Egypt Luxury Tour Package
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image" src="./assets/images/gallery-16.jpg">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      10 Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Luxor
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      Aswan day trip to Abu Simbel
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image" src="./assets/images/145 (34).jpg">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      4 Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Cairo
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      Cairo day tour to Luxor by flight
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image"
+                    src="./assets/images/A-wonderful-picture-of-the-Cairo-Tower-and-the-Nile-River-large.webp">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      4 Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Hurghada
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      5 Days Nile Cruise Tour from Luxor
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image" src="./assets/images/145 (3).jpg">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      5Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Luxor
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="tab-content">
+
+              <div class="item">
+                <div class="package-box">
+
+                  <h6>
+                    <a href="#">
+                      10 Day Egypt Luxury Tour Package
+
+                    </a>
+                  </h6>
+                  <img class="img-fluid" alt="image" src="./assets/images/145 (1).jpg">
+
+                  <div class="spans-wrapper">
+                    <span class="d-inline-block">
+                      <i class="fa-solid fa-map-location-dot"></i> 12
+                      Places
+                    </span>
+                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
+                      10 Days
+                    </span>
+                    <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
+                      Luxor
+                    </span>
+                    <!-- spans wrapper -->
+                  </div>
+                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
+                    <span class="person d-inline-block p-0 m-0">
+                      <span class="price d-inline-block p-0 m-0">
+                        $405
+
+                      </span>
+                      /Person
+                    </span>
+                    <div class="grey-btn d-inline-block">
+
+                      <a href="#">Book
+                        Now</a>
+                    </div>
+
+
+                    <!-- package btn con -->
+                  </div>
+                  <!-- package box -->
+                </div>
+
+                <!-- item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!--===============================================================
+    Popular Tours
+=============================================================-->
+  <!--============================================================= 
+                  Tailor Made Your Egypt Trips
+  ===============================================================-->
+
+  <div class="container padtobo-40">
+    <section class="offer-one"
+      style="background-image:url(https://themegavias.com/wp/travivu/wp-content/uploads/2024/11/bg-03.png)">
+      <div class="container">
+
+        <div class="offer-one__content sec-title">
+          <p class="offer-one__top-title">
+            Make your Ideal Egypt Itinerary Now!
+          </p>
+          <h2 class="offer-one__heading sec-title__heading mt-3">
+            Tailor Made Your Egypt Trips
+          </h2>
+          <div class="tailor-made d-none d-sm-block">
+            <a href="#" class="theme-btn btn-style-three">
+              Design Your Perfect Egypt Tour Now
+            </a>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!--============================================================= 
+                Tailor Made Your Egypt Trips
+  ===============================================================-->
+
+
+  <!--===============================================================
+      Our Destination Lists
+=============================================================-->
+
+  <section class="category ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center ">
+          <div class="col-12">
+            <span class="section-title-span">Popular Tours </span>
+            <h2>
+              Best Egypt Tours and Travel Packages
+            </h2>
+            <p>
+              Discover our best Egypt travel categories for Egypt trips to create your best Egypt tour plan.
+              Experience
+              the perfect Egyptian travel through our array of best categories. We offer a wide variety of tours in
+              Egypt, offering something for all types of travelers who seek historic experiences or cultural insights
+              and also want to experience luxurious relaxation. Experience the top Egypt vacation packages we offer
+              for
+              your chance to discover memorable moments throughout this historic territory. Every carefully selected
+              package provided by our company offers exceptional Egyptian vacation experiences, which include desert
+              tours alongside spectacular Nile River cruises.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="category-parent">
+        <div class="category-item">
+          <a href="#" aria-label="category-item1">
+          </a>
+          <div class="category-card"><a href="#" aria-label="category-item1">
+              <img loading="lazy" src="assets/images/145 (1).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Cairo Day Tours</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+
+              </div>
+            </a>
+            <div class="category-name"><a href="#" aria-label="category-item1">
+                <h3>Cairo Day Tours</h3>
+
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="category-item">
+          <a href="#" aria-label="category-item2">
+          </a>
+          <div class="category-card"><a href="#" aria-label="category-item2">
+              <img loading="lazy" src="assets/images/145 (3).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Alexandria Shore Excursions</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+
+              </div>
+            </a>
+            <div class="category-name"><a href="#" aria-label="category-item2">
+                <h3>Alexandria Shore Excursions</h3>
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="category-item">
+          <a href="category.html
+          " aria-label="category-item3">
+          </a>
+          <div class="category-card"><a href="category.html" aria-label="category-item3">
+              <img loading="lazy" src="assets/images/145 (16).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Accessible Hathor</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+
+              </div>
+            </a>
+            <div class="category-name"><a href="category.html" aria-label="category-item3">
+                <h3>Accessible Hathor</h3>
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="category-item">
+          <a href="category.html" aria-label="category-item4">
+          </a>
+          <div class="category-card"><a href="category.html" aria-label="category-item4">
+              <img loading="lazy" src="assets/images/145 (30).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Gastronomy</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+              </div>
+            </a>
+            <div class="category-name"><a href="category.html" aria-label="category-item4">
+                <h3>Gastronomy</h3>
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- <div class="category-item">
+          <a href="category.html">
+            <div class="category-card">
+              <img loading="lazy" src="assets/images/hathor assets/asset 65.png" alt="category-img">
+              <div class="category-preview">
+                <h2>Egypt Budget Tours</h2>
+              </div>
+              <div class="category-name">
+                <h3>Luxury Cabins</h3>
+                <div class="category-content">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore sapiente voluptatibus
+                    dignissimos possimus illum necessitatibus qui laudantium mollitia nam eveniet at autem dolor, neque
+                    blanditiis, incidunt eum beatae nesciunt? Quae.
+                  </p>
+                </div>
+                <a href="#" class="btn-effect">Explore Now</a>
+              </div>
+            </div>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!--===============================================================
+      Our Destination Lists
+=============================================================-->
+
+
+  <!--===============================================================
+      About Us
+=============================================================-->
+  <div class="container padtobo-40">
+    <section class="hero-section padtop-50">
+
+      <div class="text-area">
+        <div class="section-title ">
+          <div class="col-12">
+            <span class="section-title-span">Known About Us</span>
+            <h2>
+              We Believe That Travel is More than Just Visiting New Places Experience
+            </h2>
+            <p>
+              We don’t just plan trips—we craft unforgettable experiences. With expertise, personalized service, and a
+              deep passion for travel, we ensure every journey is smooth, safe, and inspiring. From handpicked
+              accommodations
+            </p>
+            <p>
+              Travel isn't just about destinations — it's about discovery, connection, and unforgettable experiences.
+            </p>
+          </div>
+        </div>
+        <img src="./assets/images/Deluxe_Tours_dj0jRz.jpg" alt="Egypt" class="image-box">
+      </div>
+
+      <div class="features-area">
+        <img src="./assets/images/Pictures-of-some-tourists-riding-camels-in-the-pyramids-area-large.webp"
+          alt="Underwater" class="image-box">
+
+        <div class="feature">
+          <img src="./assets/images/world.png">
+          <div class="contentt">
+            <h3>Expertly Experiences</h3>
+            <p>We specialize in journeys that blend comfort culture</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <img src="./assets/images/travel (1).png">
+          <div class="contentt">
+            <h3>Seamless Travel Plan</h3>
+            <p>We make the entire process smooth and stress-free</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <img src="./assets/images/backpack.png">
+          <div class="contentt">
+            <h3>All-Inclusive Packages</h3>
+            <p>From flights accommodation sightseeing and activities</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <img src="./assets/images/badge.png">
+          <div class="contentt">
+            <h3> Passionate Quality Travel </h3>
+            <p>We are genuinely dedicated turning dream vacation</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+  </div>
+  <!--===============================================================
+     About Us
+=============================================================-->
+
+  <!--===============================================================
+           blog-section
+=============================================================-->
+
+  <div class="blog-section padtobo-40"
+    style="background-image: url(https://routehaven.boomdevstheme.com/wp-content/uploads/2023/11/bg-1.png)">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center ">
+          <div class="col-12">
+            <span class="section-title-span">Latest Blog & News</span>
+            <h2>
+              Latest News & Articles from
+              the Blog Posts
+            </h2>
+            <p>
+              We offer a variety of Egypt trips that allow you to experience the captivating Egyptian
+              climate and marvel
+              at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+              sites like the
+              Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-lg-4 gy-5">
+        <div class="col-lg-4">
+          <div class="blog-card style-5">
+            <div class="blog-card-img-wrap">
+              <a href="#" class="card-img">
+                <img decoding="async" src="./assets/images/145 (26).jpg" alt="thumbnail">
+              </a>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-card-content-top">
+                <ul>
+                  <li>
+                    <a href="#">Jan 9, 2025</a>
+                  </li>
+                  <li> By <a href="#">Shafiqul</a></li>
+                </ul>
+              </div>
+              <h5>
+                <a href="#">Cairo Touristic Attractions</a>
+              </h5>
+              <div class="bottom-area">
+
+                <a href="#">View Post
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                      <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>
+                      <path d="M10.412 7.59764L12.1908 2.89295L7.22705 2.08105" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="blog-card style-5">
+            <div class="blog-card-img-wrap">
+              <a href="#" class="card-img">
+                <img decoding="async" src="./assets/images/145 (23).jpg" alt="thumbnail">
+              </a>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-card-content-top">
+                <ul>
+                  <li>
+                    <a href="#">Jan 9, 2025</a>
+                  </li>
+                  <li> By <a href="#">Shafiqul</a></li>
+                </ul>
+              </div>
+              <h5>
+                <a href="#">Luxor Attractions</a>
+              </h5>
+              <div class="bottom-area">
+
+                <a href="#">View Post
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                      <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>
+                      <path d="M10.412 7.59764L12.1908 2.89295L7.22705 2.08105" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="blog-card style-5">
+            <div class="blog-card-img-wrap">
+              <a href="#" class="card-img">
+                <img decoding="async" src="./assets/images/145 (29).jpg" alt="thumbnail">
+              </a>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-card-content-top">
+                <ul>
+                  <li>
+                    <a href="#">Jan 9, 2025</a>
+                  </li>
+                  <li> By <a href="#">Shafiqul</a></li>
+                </ul>
+              </div>
+              <h5>
+                <a href="#">Aswan Attractions</a>
+              </h5>
+              <div class="bottom-area">
+
+                <a href="#">View Post
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                      <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>
+                      <path d="M10.412 7.59764L12.1908 2.89295L7.22705 2.08105" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="blog-card one mb-3">
+            <div class="blog-card-img-wrap blog--card">
+              <a href="#" class="card-img card__img">
+                <img src="./assets/images/145 (31).jpg" alt="">
+              </a>
+              <a href="#" class="date">
+                <span><strong>20</strong> <br>
+                  August</span>
+              </a>
+            </div>
+            <div class="blog-card-content blog__card">
+              <div class="blog-card-content-top">
+                <ul>
+                  <li> By <a href="#">Shafiqul</a></li>
+                </ul>
+              </div>
+              <h5><a href="#">The Egyptian Museum in Cairo</a></h5>
+
+              <p class="blog__card-text">
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteradution in
+                some form by injected humour, or randomised words which
+                don't look even slightly believable. If you are going
+              </p>
+              <div class="bottom-area">
+
+                <a href="#">View Post
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                      <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>
+                      <path d="M10.412 7.59764L12.1908 2.89295L7.22705 2.08105" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-card one mb-3">
+            <div class="blog-card-img-wrap blog--card">
+              <a href="#" class="card-img card__img">
+                <img src="./assets/images/145 (33).jpg" alt="">
+              </a>
+              <a href="#" class="date">
+                <span><strong>20</strong> <br>
+                  August</span>
+              </a>
+            </div>
+            <div class="blog-card-content blog__card">
+              <div class="blog-card-content-top">
+                <ul>
+                  <li> By <a href="#">Shafiqul</a></li>
+                </ul>
+              </div>
+              <h5><a href="#">Valley of the Kings in Luxor</a></h5>
+
+              <p class="blog__card-text">
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteradution in
+                some form by injected humour, or randomised words which
+                don't look even slightly believable. If you are going
+              </p>
+              <div class="bottom-area">
+
+                <a href="#">View Post
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                      <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>
+                      <path d="M10.412 7.59764L12.1908 2.89295L7.22705 2.08105" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-card one mb-3">
+            <div class="blog-card-img-wrap blog--card">
+              <a href="#" class="card-img card__img">
+                <img src="./assets/images/145 (36).jpg" alt="">
+              </a>
+              <a href="#" class="date">
+                <span><strong>20</strong> <br>
+                  August</span>
+              </a>
+            </div>
+            <div class="blog-card-content blog__card">
+              <div class="blog-card-content-top">
+                <ul>
+                  <li> By <a href="#">Shafiqul</a></li>
+                </ul>
+              </div>
+              <h5><a href="#">Philae Temple | Temple of Isis</a></h5>
+
+              <p class="blog__card-text">
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteradution in
+                some form by injected humour, or randomised words which
+                don't look even slightly believable. If you are going
+              </p>
+              <div class="bottom-area">
+
+                <a href="#">View Post
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                      <path d="M2.07617 8.73272L12.1899 2.89355" stroke-linecap="round"></path>
+                      <path d="M10.412 7.59764L12.1908 2.89295L7.22705 2.08105" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--===============================================================
+      blog-section
+    =============================================================-->
+
+  <!--===============================================================
+      tours
+    =============================================================-->
+
+  <section class="tours padtobo-40">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center">
+          <div class="col-12">
+            <span class="section-title-span">tour</span>
+            <h2>Experience Best Egypt Tours Now</h2>
+            <p class="mx-auto mt-20 section-title-para">
+              Our trips to Egypt offer you to get the most amazing of Egypt attractions in your Egypt day tours. Explore
+              the historical sites such as the pyramids of Giza and the temples of Luxor during Luxor day tours to enjoy
+              the warm hospitality of the Egyptian people and the amazing food. Our Cairo day tours will help you reach
+              the best sites of Cairo, like the Egyptian Museum, the Great Sphinx, and the Hanging Church. Egypt trips
+              are the best way to enjoy the historical places all over Egypt. Join us on Egypt's classic tours to have
+              an amazing experience. You can enjoy Red Sea trips through El Gouna day tours and also Marsa Alam trips,
+              where you can enjoy the charming beaches and distinctive diving trips.
+            </p>
+            <button class="showMore-btn" style="display: none;">Show More</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="tour-card position-relative">
+            <a href="tour-details.html"> <img loading="lazy" src="assets/images/145 (11).jpg" alt="tour-card-img"></a>
+            <div class="tour-card-content">
+              <div class="tour-duration"><i class="fa-regular fa-clock me-2"></i><span>5 days </span></div>
+              <a href="tour-details.html">
+                <h3 class="tour-title mb-2">5 Days Cairo & Luxor – Best Travel Deals to Egypt</h3>
+              </a>
+              <div class="tour-card-text">
+                <p class="tour-para">
+                  Indulge in our premium Nile cruise experience with spacious suites featuring panoramic views, private
+                  balconies, and elegant Egyptian decor. Perfect for those seeking a luxurious journey through ancient
+                  Egypt.
+                </p>
+              </div>
+              <div class="tour-card-footer d-flex align-items-center justify-content-between">
+                <div class="tour-price position-relative">
+                  <span class="tour-price-title">From :</span>
+                  <del class="deleted-price mr-3">$4500</del>
+                  <span class="price-value">$4250</span>
+                </div>
+                <div class="tour-card-cta">
+                  <a href="tour-details.html" class="btn-effect">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="tour-card position-relative">
+            <a href="tour-details.html"> <img loading="lazy" src="assets/images/145 (16).jpg" alt="tour-card-img"></a>
+            <div class="tour-card-content">
+              <div class="tour-duration"><i class="fa-regular fa-clock me-2"></i><span>5 days</span></div>
+              <a href="tour-details.html">
+                <h3 class="tour-title mb-2">5 Days Cairo & Luxor – Best Travel Deals to Egypt</h3>
+              </a>
+              <div class="tour-card-text">
+                <p class="tour-para">
+                  Our deluxe cabins offer stunning Nile views, modern amenities, and traditional Egyptian design
+                  elements. Experience the perfect balance of comfort and cultural immersion.
+                </p>
+              </div>
+              <div class="tour-card-footer d-flex align-items-center justify-content-between">
+                <div class="tour-price position-relative">
+                  <span class="tour-price-title">From :</span>
+                  <del class="deleted-price mr-3">$3500</del>
+                  <span class="price-value">$3000</span>
+                </div>
+                <div class="tour-card-cta">
+                  <a href="tour-details.html" class="btn-effect">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="tour-card position-relative">
+            <a href="tour-details.html"> <img loading="lazy" src="assets/images/145 (37).jpg" alt="tour-card-img"></a>
+            <div class="tour-card-content">
+              <div class="tour-duration"><i class="fa-regular fa-clock me-2"></i><span>5 days </span></div>
+              <a href="tour-details.html">
+                <h3 class="tour-title mb-2">5 Days Cairo & Luxor – Best Travel Deals to Egypt</h3>
+              </a>
+              <div class="tour-card-text">
+                <p class="tour-para">
+                  Combine the best of both worlds with our premium hotel and cruise package. Enjoy luxury accommodations
+                  both on land and water, with seamless transitions between your hotel stay and Nile cruise experience.
+                </p>
+              </div>
+              <div class="tour-card-footer d-flex align-items-center justify-content-between">
+                <div class="tour-price position-relative">
+                  <span class="tour-price-title">From :</span>
+                  <del class="deleted-price mr-3">$1500</del>
+                  <span class="price-value">$1200</span>
+                </div>
+                <div class="tour-card-cta">
+                  <a href="tour-details.html" class="btn-effect">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--===============================================================
+    tours
+    =============================================================-->
+
+  <!--===============================================================
+ testimonial
+    =============================================================-->
+
+
+  <section class="testimonial padtobo-40"
+    style="background-image: url(https://routehaven.boomdevstheme.com/wp-content/uploads/2023/11/bg-1.png)">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center">
+          <div class="col-12">
+            <span class="section-title-span">testimonials</span>
+            <h2>Trusted by Travelers Worldwide!</h2>
+            <p class="mx-auto mt-20 section-title-para">
+              Our trips to Egypt offer you to get the most amazing of Egypt attractions in your Egypt day tours.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="owl-carousel owl-theme testimonials-owl">
+        <div class="testimonials-item">
+          <div class="testimonials-icon">
+            <img src="assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png" />
+          </div>
+          <h3>Loura Daniels</h3>
+          <span>Tourist</span>
+          <div class="testimonial-text">
+            <p class="testimonial-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum cupiditate, rem consequatur
+              minus expedita totam enim sunt quaerat minima quisquam temporibus accusantium odio neque. Et aspernatur
+              saepe consequuntur harum!
+            </p>
+          </div>
+        </div>
+        <div class="testimonials-item">
+          <div class="testimonials-icon">
+            <img src="assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png" />
+          </div>
+          <h3>Loura Daniels</h3>
+          <span>Tourist</span>
+          <div class="testimonial-text">
+            <p class="testimonial-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum cupiditate, rem consequatur
+              minus expedita totam enim sunt quaerat minima quisquam temporibus accusantium odio neque. Et aspernatur
+              saepe consequuntur harum!
+            </p>
+          </div>
+        </div>
+        <div class="testimonials-item">
+          <div class="testimonials-icon">
+            <img src="assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png" />
+          </div>
+          <h3>Loura Daniels</h3>
+          <span>Tourist</span>
+          <div class="testimonial-text">
+            <p class="testimonial-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum cupiditate, rem consequatur
+              minus expedita totam enim sunt quaerat minima quisquam temporibus accusantium odio neque. Et aspernatur
+              saepe consequuntur harum!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--===============================================================
+ testimonial
+    =============================================================-->
+
+  <!--=================================================================
+                            Start FAQ Section 
+  ==================================================================-->
+
+  <div class="faq-section padtobo-40" style="background-image: url(assets/images/7.png);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center ">
+          <div class="col-12">
+            <span class="section-title-span">FAQ</span>
+            <h2>
+              Check Asked Questions
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              reprehenderit reiciendis neque tempore itaque dolorem unde,
+              quasi sint voluptates sequi amet aut quisquam excepturi expedita
+              asperiores? Doloremque nihil fuga excepturi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6">
+          <div class="faq-one__content-box">
+            <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
+              <div class="accrodion active">
+                <div class="accrodion-title">
+                  <h4>Optimize Progressive Web Apps Going Beyond</h4>
+                </div>
+                <div class="accrodion-content">
+                  <div class="inner">
+                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantim
+                      dolomque laudantium totam rem aperiam eaque quae abillo inventore
+                      veritatis etquasi archcto beatae vitae dicta sunt explica boemo enim
+                      ipsam tatem</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accrodion">
+                <div class="accrodion-title">
+                  <h4>We Teach You How To Feel Better.</h4>
+                </div>
+                <div class="accrodion-content">
+                  <div class="inner">
+                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantim
+                      dolomque laudantium totam rem aperiam eaque quae abillo inventore
+                      veritatis etquasi archcto beatae vitae dicta sunt explica boemo enim
+                      ipsam tatem</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accrodion">
+                <div class="accrodion-title">
+                  <h4>Feature Prioritizing Ways To Reduce Subjectivity</h4>
+                </div>
+                <div class="accrodion-content">
+                  <div class="inner">
+                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantim
+                      dolomque laudantium totam rem aperiam eaque quae abillo inventore
+                      veritatis etquasi archcto beatae vitae dicta sunt explica boemo enim
+                      ipsam tatem</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accrodion">
+                <div class="accrodion-title">
+                  <h4>Feature Prioritizing Ways To Reduce Subjectivity</h4>
+                </div>
+                <div class="accrodion-content">
+                  <div class="inner">
+                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantim
+                      dolomque laudantium totam rem aperiam eaque quae abillo inventore
+                      veritatis etquasi archcto beatae vitae dicta sunt explica boemo enim
+                      ipsam tatem</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accrodion">
+                <div class="accrodion-title">
+                  <h4>Feature Prioritizing Ways To Reduce Subjectivity</h4>
+                </div>
+                <div class="accrodion-content">
+                  <div class="inner">
+                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantim
+                      dolomque laudantium totam rem aperiam eaque quae abillo inventore
+                      veritatis etquasi archcto beatae vitae dicta sunt explica boemo enim
+                      ipsam tatem</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="video-popup-wrap" style="background-image: url(https://deluxetourseg.com/front/assets/images)">
+            <div class="thumb">
+              <img src="./assets/images/exv1.webp" alt="video">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--=================================================================
+                            End FAQ Section 
+  ==================================================================-->
+
+  <!--====================================================================
+                               partners
+  =====================================================================-->
+
+  <section class="partners ">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="section-title text-center">
+          <div class="col-12">
+            <span class="section-title-span">Partners</span>
+            <p>Trusted By 200+ Global Brands</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="partners__content">
+            <ul class="partners__carousel owl-carousel owl-theme list-unstyled">
+              <li class="partners__single">
+                <div class="partners__img">
+                  <a href="#"><img src="assets/images/partner-logo6.jpeg" alt="" /></a>
+                </div>
+              </li>
+              <li class="partners__single">
+                <div class="partners__img">
+                  <a href="#"><img src="assets/images/conrad.png" alt="" /></a>
+                </div>
+              </li>
+              <li class="partners__single">
+                <div class="partners__img">
+                  <a href="#"><img src="assets/images/sheraton.png" alt="" /></a>
+                </div>
+              </li>
+              <li class="partners__single">
+                <div class="partners__img">
+                  <a href="#"><img src="assets/images/fairmont.png" alt="" /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--====================================================================
+                               partners
+  =====================================================================-->
+  <!--==============================================================
+                            start scroll-to-top 
+  ================================================================-->
+  <div id="scroll-top" class="scroll-top">
+    <span id="scroll-top-value" class="scroll-top-value"></span>
+  </div>
+  <!--=====================================================
+                            End scroll-to-top 
+    ====================================================-->
+  <!--=======================================================
+                          end menu-mobile box
+         ===================================================-->
+  <!--========================================================
+            start footer
+    ========================================================-->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-xl-3">
+          <div class="footer-widget footer-widget--about">
+            <a href="index-2.html" class="footer-widget__logo">
+              <img loading="lazy" src="assets/images/travel logo.png" width="185" alt="footer-widget">
+            </a>
+            <p class="footer-widget__text">
+              Content of a page when looking at layout the<br> point of using lorem the is Ipsum less when<br> looking
+              normal
+            </p>
+            <ul class="social-media-navbar">
+              <li>
+                <a href="#" class="facebook" aria-label="facebook-account"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#" class="twitter" aria-label="twitter-account"><i class="fab fa-twitter"></i></a>
+              </li>
+
+              <li>
+                <a href="#" class="linkedin" aria-label="linkedin-account"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#" class="tripadvisor">
+                  <svg style="width: 25px !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    id="tripadvisor">
+                    <g fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="6" cy="13" r=".5"></circle>
+                      <circle cx="6" cy="13" r="2.5"></circle>
+                      <circle cx="6" cy="13" r="5.5"></circle>
+                      <circle cx="18" cy="13" r=".5"></circle>
+                      <circle cx="18" cy="13" r="2.5"></circle>
+                      <circle cx="18" cy="13" r="5.5"></circle>
+                      <path
+                        d="M4.38 7.5a15.52 15.52 0 0 1 15.24 0M5.5 7.5h-5a5.64 5.64 0 0 1 1.09 2.22M18.5 7.5h5a5.64 5.64 0 0 0-1.09 2.22M10.54 16.1 12 18.5l1.46-2.4">
+                      </path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class=" instagram" aria-label="instagram-account"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class=" col-md-6 col-xl-3">
+          <div class="footer-widget footer-widget--links">
+            <h2 class="footer-widget__title">Useful Links</h2>
+            <img src="assets/images/under-lines.webp" alt="footer-widget-line">
+            <ul class="list-unstyled footer-widget__links">
+              <li><a href="index-2.html">Home</a></li>
+              <li><a href="about-us.html">About us</a></li>
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href=""> Travel Style</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class=" col-md-6 col-xl-3">
+          <div class="footer-widget footer-widget--links-two">
+            <h2 class="footer-widget__title">Day Tours </h2>
+            <img src="assets/images/under-lines.webp" alt="footer-widget-line">
+            <ul class="list-unstyled footer-widget__links">
+              <li><a href="free-page.html">Cairo Day Tours</a></li>
+              <li><a href="free-page.html">⁠Luxor Day Tours</a></li>
+              <li><a href="free-page.html">⁠Hurghada Day Tours</a></li>
+              <li><a href="free-page.html">Cookie policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <div class="footer-widget footer-widget--links-two">
+            <h2 class="footer-widget__title">Get in touch</h2>
+            <img src="assets/images/under-lines.webp" alt="footer-widget-line">
+            <div class="contact-footer mb-2">
+              <a href="seo@seoera.net">
+                <img loading="lazy" src="assets/images/envlope.svg" alt="contact-footer">
+                <span>seo@seoera.net</span>
+              </a>
+              <a href="tel:+201067865053">
+                <img loading="lazy" src="assets/images/phone (1).svg" alt="contact-footer">
+                <span>201067865053</span>
+              </a>
+            </div>
+            <div class="payment-method">
+              <h2 class="footer-widget__title mb-2">Payment Method </h2>
+              <div class="payment-photos d-flex gap-2">
+                <img loading="lazy" src="assets/images/payment-cards.png" alt="payment-photo-1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="container">
+        <div class="main-footer__bottom__inner">
+          <p class="main-footer__copyright">
+            Copyright © <span id="csyear">2025</span>
+            <a href="https://www.seoera.net/" target="_blank">SeoEra</a>
+            All Right Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--========================================================
+            End footer
+    =========================================================-->
+  <!--=====================================================
+                        start menu-mobile box
+  ======================================================-->
+  <div class="d-block d-md-none d-lg-none d-xl-none">
+    <div class="menu-mobile-fixed d-flex align-items-center justify-content-between">
+      <a href="http://wa.me/+201270496896" target="_blank">
+        <img loading="lazy" alt="mobile-whatsapp" src="assets/images/whatsapp.svg" />
+        <h5>Whats App</h5>
+      </a>
+      <a href="tel:+201270496896">
+        <img loading="lazy" alt="mobile-call" src="assets/images/phone.svg" />
+        <h5>Call</h5>
+      </a>
+      <a href="#">
+        <img loading="lazy" alt="mobile-contact" src="assets/images/call-center.svg" />
+        <h5>Contact Us</h5>
+      </a>
+      <a href="#"> <img loading="lazy" src="assets/images/tailor-footer.svg" alt="tailor-footer" />
+        <h5>Book Now</h5>
+      </a>
+    </div>
+  </div>
+  <!--===========================================
+                end menu-mobile box
+     ===========================================-->
+
+  <!---==============================================================
+                  Librairies
+    ================================================================-->
+  <!--  jQuery js  -->
+  <script src="assets/lib/jquery/jquery-3.6.0.min.js"></script>
+  <!-- bootstrap Js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!--  owl.carousel js  -->
+  <script src="./assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+  <!-- lity JS file -->
+  <script src="assets/js/librairies/lity.min.js"></script>
+  <!-- Swiper Slider js  -->
+  <script src="./assets/lib/swiper/swiper-bundle.min.js"></script>
+  <!-- My Custom Js  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <script>
+    const swiper = new Swiper(".heroSwiper", {
+      loop: true,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false
+      },
+      effect: "fade"
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownAreas = document.querySelectorAll('.has-dropdown .dropdown-parent');
+
+      dropdownAreas.forEach(dropdown => {
+        const items = dropdown.querySelectorAll('.main-menu > li');
+        const firstItem = items[0];
+
+        const activateItem = (itemToActivate) => {
+          items.forEach(item => {
+            item.classList.remove('active');
+            const submenu = item.querySelector('.sub-menu');
+            if (submenu) submenu.classList.remove('active');
+          });
+
+          itemToActivate.classList.add('active');
+          const submenu = itemToActivate.querySelector('.sub-menu');
+          if (submenu) submenu.classList.add('active');
+        };
+
+
+        activateItem(firstItem);
+
+        items.forEach(item => {
+          item.addEventListener('mouseenter', () => {
+            activateItem(item);
+          });
+
+          item.addEventListener('mouseleave', () => {
+
+            activateItem(firstItem);
+          });
+        });
+
+
+        dropdown.addEventListener('mouseleave', () => {
+          activateItem(firstItem);
+        });
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>
