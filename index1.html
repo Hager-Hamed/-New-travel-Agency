@@ -34,6 +34,7 @@
 </head>
 
 <body>
+
   <!--===========================================================
                           Start Navbar
 ==============================================================-->
@@ -101,11 +102,45 @@
                   <i class="fa-solid fa-cart-shopping"></i>
                   <a href="#">Cart</a>
                 </li>
-                <!-- <li>
+                <li>
                   <i class="fa-solid fa-heart"></i>
                   <a href="#">Favourite</a>
-                </li> -->
+                </li>
               </ul>
+              <!-- <ul class="social-media-navbar">
+                <li>
+                  <a href="#" class="facebook" aria-label="facebook-account"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="twitter" aria-label="twitter-account"><i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li>
+                  <a href="#" class="linkedin" aria-label="linkedin-account"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="tripadvisor">
+                    <svg style="width: 25px !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      id="tripadvisor">
+                      <g fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="6" cy="13" r=".5"></circle>
+                        <circle cx="6" cy="13" r="2.5"></circle>
+                        <circle cx="6" cy="13" r="5.5"></circle>
+                        <circle cx="18" cy="13" r=".5"></circle>
+                        <circle cx="18" cy="13" r="2.5"></circle>
+                        <circle cx="18" cy="13" r="5.5"></circle>
+                        <path
+                          d="M4.38 7.5a15.52 15.52 0 0 1 15.24 0M5.5 7.5h-5a5.64 5.64 0 0 1 1.09 2.22M18.5 7.5h5a5.64 5.64 0 0 0-1.09 2.22M10.54 16.1 12 18.5l1.46-2.4">
+                        </path>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class=" instagram" aria-label="instagram-account"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul> -->
             </div>
           </div>
 
@@ -115,14 +150,16 @@
 
 
     <nav class="navbar navbar-expand-lg main-navbar">
-      <div class="container-fluid px-5 ">
+      <div class="container">
         <a class="navbar-brand d-block d-sm-none" href="index.html">
           <img loading="lazy" src="assets/images/travel logo.png" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
-      <i class="fa-solid fa-bars"></i>
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
           </span>
         </button>
 
@@ -203,7 +240,6 @@
         <a class="mobile-logo" href="index.html">
           <img loading="lazy" src="assets/images/travel logo.png" alt="mobile-logo">
         </a>
-       
         <ul id="mobile-main-menu" class="mobile nav-menu">
           <li class="mobile nav-item">
             <a href="index.html" class="nav-link">Home</a>
@@ -267,176 +303,108 @@
             <a href="contact.html" class="nav-link">Travel Style</a>
           </li>
         </ul>
+        <!-- <div class="mobile-menu-cta mt-20">
+          <a href="#" class="theme-btn btn-style-three">
+            Book Now
+          </a>
+        </div> -->
       </div>
 
+
+      <!-- <div class="follow-us mt-20">
+        <h3>Follow Us</h3>
+        <div class="line-side"></div>
+       
+        <div class="social-icon">
+          <ul class="social-media-navbar mt-10">
+            <li>
+              <a href="#" aria-label="facebook-account"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="twitter-account"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="instagram-account"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="linkedin-account"> <i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>  -->
     </div>
   </div>
   <div class="close-menu-sidebar backInUp"></div>
-
   <!--===========================================================
                         End Navbar
     ===========================================================-->
   <!--=========================================
            home search
   =============================================-->
-
-  <section class="py-2"
-    style="background-image: url('https://routehaven.boomdevstheme.com/wp-content/uploads/2023/11/bg-1.png');background-repeat: no-repeat;background-size: cover;">
+  <section class="hero-slider position-relative">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="banner-blocks">
-
-            <div class="banner-ad large bg-info block-1">
-              <div class="swiper heroSwiper">
-                <div class="swiper-wrapper">
-                  <!-- Slide 1 -->
-                  <div class="swiper-slide">
-                    <div class="hero-home-item">
-                      <img src="assets/images/145 (38).jpg" alt="home-item-1">
-                      <div class="hero-home-content">
-                        <h2 class="hero-home-title">Find your next travel experience</h1>
-                          <p>
-                            Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and
-                            unforgettable
-                            memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's
-                            iconic
-                            destinations—all crafted for your perfect journey.
-                          </p>
-                          <div class="tailor-made d-none d-sm-block">
-                            <a href="#" class="theme-btn btn-style-three">
-                              Learn more
-                            </a>
-                          </div>
-                      </div>
-                    </div>
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="hero-home-item">
+              <img src="assets/images/A-wonderful-picture-of-the-Cairo-Tower-and-the-Nile-River-large.webp"
+                alt="home-item-1">
+              <div class="hero-home-content">
+                <h2 class="hero-home-title">Find your next travel experience</h1>
+                  <p>
+                    Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and unforgettable
+                    memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's iconic
+                    destinations—all crafted for your perfect journey.
+                  </p>
+                  <div class="tailor-made d-none d-sm-block">
+                    <a href="#" class="theme-btn btn-style-three">
+                      Learn more
+                    </a>
                   </div>
-                  <!-- Slide 2-->
-                  <div class="swiper-slide ">
-                    <div class="hero-home-item">
-                      <img src="assets/images/145 (30).jpg">
-                      <div class="hero-home-content">
-                        <h2 class="hero-home-title">ENJOY YOUR EGYPT VACATION WITH US</h1>
-                          <p>
-                            Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and
-                            unforgettable
-                            memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's
-                            iconic
-                            destinations—all crafted for your perfect journey.
-                          </p>
-                          <div class="tailor-made d-none d-sm-block">
-                            <a href="#" class="theme-btn btn-style-three">
-                              Learn more
-                            </a>
-                          </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Slide 3-->
-                  <div class="swiper-slide ">
-                    <div class="hero-home-item">
-                      <img src="assets/images/banar_6.jpg">
-                      <div class="hero-home-content">
-                        <h2 class="hero-home-title">Explore the best destination tours in Egypt & Worldwide</h1>
-                          <p>
-                            Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and
-                            unforgettable
-                            memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's
-                            iconic
-                            destinations—all crafted for your perfect journey.
-                          </p>
-                          <div class="tailor-made d-none d-sm-block">
-                            <a href="#" class="theme-btn btn-style-three">
-                              Learn more
-                            </a>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="swiper main-swiper">
-                  <div class="swiper-wrapper">
-                    
-                    <div class="swiper-slide"style="background:url('/assets/images/A-wonderful-picture-of-the-Cairo-Tower-and-the-Nile-River-large.webp') no-repeat;    background-repeat: round;">
-                      <div class="row banner-content p-5">
-                        <div class="content-wrapper col-md-7">
-                          <div class="categories my-3">100% natural</div>
-                          <h3 class="display-4">Fresh Smoothie & Summer Juice</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.</p>
-                          <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-3">Shop Now</a>
-                        </div>
-                         <div class="img-wrapper col-md-5">
-                          <img src="./assets/images/h44.jpg" class="img-fluid">
-                        </div> 
-                      </div>
-                    </div>
-                    
-                    <div class="swiper-slide">
-                      <div class="row banner-content p-5">
-                        <div class="content-wrapper col-md-7">
-                          <div class="categories mb-3 pb-3">100% natural</div>
-                          <h3 class="banner-title">Fresh Smoothie & Summer Juice</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.</p>
-                          <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">Shop Collection</a>
-                        </div>
-                        <div class="img-wrapper col-md-5">
-                          <img src="./assets/images/h43.jpg" class="img-fluid">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="swiper-slide">
-                      <div class="row banner-content p-5">
-                        <div class="content-wrapper col-md-7">
-                          <div class="categories mb-3 pb-3">100% natural</div>
-                          <h3 class="banner-title">Heinz Tomato Ketchup</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.</p>
-                          <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">Shop Collection</a>
-                        </div>
-                        <div class="img-wrapper col-md-5">
-                          <img src="./assets/images/h42.jpg" class="img-fluid">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="swiper-pagination"></div>
-
-                </div> -->
-            </div>
-
-            <div class="banner-ad bg-success-subtle block-2"
-              style="background:url('./assets/images/1600w-EMQnvnGWHX0.webp') no-repeat;    background-repeat: round;">
-              <div class="row banner-content p-5">
-
-                <!-- <div class="content-wrapper col-md-7">
-                    <div class="categories sale mb-3 pb-3">20% off</div>
-                    <h3 class="banner-title">Fruits & Vegetables</h3>
-                    <a href="#" class="d-flex align-items-center nav-link">Shop Collection <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg></a>
-                  </div> -->
-
               </div>
             </div>
-
-            <div class="banner-ad bg-danger block-3"
-              style="background:url('./assets/images/1600w-F8XajF7vMjQ.webp') no-repeat;    background-repeat: round;">
-              <div class="row banner-content p-5">
-
-                <!-- <div class="content-wrapper col-md-7">
-                    <div class="categories sale mb-3 pb-3">15% off</div>
-                    <h3 class="item-title">Baked Products</h3>
-                    <a href="#" class="d-flex align-items-center nav-link">Shop Collection <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg></a>
-                  </div> -->
-
-              </div>
-            </div>
-
           </div>
-          <!-- / Banner Blocks -->
+          <!-- Slide 2-->
+          <div class="swiper-slide ">
+            <div class="hero-home-item">
+              <img
+                src="assets/images/women-tourists-holding-man-s-hand-leading-him-fairy-chimneys-cappadocia-turkey-scaled.jpg">
+              <div class="hero-home-content">
+                <h2 class="hero-home-title">ENJOY YOUR EGYPT VACATION WITH US</h1>
+                  <p>
+                    Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and unforgettable
+                    memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's iconic
+                    destinations—all crafted for your perfect journey.
+                  </p>
+                  <div class="tailor-made d-none d-sm-block">
+                    <a href="#" class="theme-btn btn-style-three">
+                      Learn more
+                    </a>
+                  </div>
 
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3-->
+          <div class="swiper-slide ">
+            <div class="hero-home-item">
+              <img src="assets/images/banar_6.jpg">
+              <div class="hero-home-content">
+                <h2 class="hero-home-title">Explore the best destination tours in Egypt & Worldwide</h1>
+                  <p>
+                    Discover the wonders of Egypt , your gateway to luxury tours, seamless adventures, and unforgettable
+                    memories. Experience tailored itineraries, exceptional service, and the magic of Egypt's iconic
+                    destinations—all crafted for your perfect journey.
+                  </p>
+                  <div class="tailor-made d-none d-sm-block">
+                    <a href="#" class="theme-btn btn-style-three">
+                      Learn more
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -445,306 +413,6 @@
   <!--=========================================
             End home search
   =============================================-->
-
-   <!--=========================================
-        about
-  =============================================-->
-
-  <section class="home-content padtop-40 mt-5">
-    <div class="container">
-      <div class="home-content-title d-flex gap-2 mb-3">
-        <h2>
-          <img src="./assets/images/percentage.svg" alt="  Tours Egypt | Best Luxury Tours To Egypt &amp; Jordan">
-          EgyptaTours – Your Authentic Travel Partner Across Egypt
-        </h2>
-      </div>
-      <div class="row ">
-        <div class="col-lg-7">
-          <div class="full-describation">
-            <p>
-              EgyptaTours has become a top choice for travelers from around the world seeking to explore the timeless
-              beauty of Egypt through unforgettable, expertly crafted journeys. Our tours blend ancient history,
-              breathtaking landmarks, thrilling adventures, and modern comfort to deliver an exceptional travel
-              experience. With years of experience in the tourism industry, EgyptaTours is proud to offer a dedicated
-              team of professional tour operators, knowledgeable Egyptologist guides, and reliable drivers — all
-              committed to delivering top-tier service. Whether you’re planning a solo adventure, a family vacation, or
-              a tailor-made private tour, EgyptaTours offers flexible options to suit every traveler's dream. Let us
-              turn your visit to Egypt into a story you’ll never forget.
-
-            </p>
-
-
-          </div>
-        </div>
-
-        <div class="col-lg-5">
-          <div class="about-video-and-img">
-            <div class="video-and-batch-wrap">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="video-and-batch">
-                    <div class="badge">
-                      <span class="badge__char" style="--char-rotate: 0deg;">T</span>
-                      <span class="badge__char" style="--char-rotate: 15.652173913043478deg;">R</span>
-                      <span class="badge__char" style="--char-rotate: 31.304347826086957deg;">A</span>
-                      <span class="badge__char" style="--char-rotate: 46.95652173913044deg;">V</span>
-                      <span class="badge__char" style="--char-rotate: 62.608695652173914deg;">E</span>
-                      <span class="badge__char" style="--char-rotate: 78.26086956521739deg;">L</span>
-                      <span class="badge__char" style="--char-rotate: 93.91304347826087deg;">.</span>
-                      <span class="badge__char" style="--char-rotate: 109.56521739130434deg;">A</span>
-                      <span class="badge__char" style="--char-rotate: 125.21739130434783deg;">G</span>
-                      <span class="badge__char" style="--char-rotate: 140.8695652173913deg;">E</span>
-                      <span class="badge__char" style="--char-rotate: 156.52173913043478deg;">N</span>
-                      <span class="badge__char" style="--char-rotate: 172.17391304347825deg;">C</span>
-                      <span class="badge__char" style="--char-rotate: 187.82608695652175deg;">Y</span>
-                      <span class="badge__char" style="--char-rotate: 203.47826086956522deg;">.</span>
-                      <span class="badge__char" style="--char-rotate: 219.1304347826087deg;">E</span>
-                      <span class="badge__char" style="--char-rotate: 234.7826086956522deg;">S</span>
-                      <span class="badge__char" style="--char-rotate: 250.43478260869566deg;">T</span>
-                      <span class="badge__char" style="--char-rotate: 266.0869565217391deg;">-</span>
-                      <span class="badge__char" style="--char-rotate: 281.7391304347826deg;">2</span>
-                      <span class="badge__char" style="--char-rotate: 297.39130434782606deg;">0</span>
-                      <span class="badge__char" style="--char-rotate: 313.04347826086956deg;">2</span>
-                      <span class="badge__char" style="--char-rotate: 328.69565217391306deg;">4</span>
-                      <span class="badge__char" style="--char-rotate: 344.3478260869565deg;">.</span>
-                      <div class="counter-area">
-                        <div class="counter-content-wrap">
-                          <div class="number">
-                            <h5 class="counter">0.1</h5>
-                            <span>k</span>
-                            <span>+</span>
-                          </div>
-                          <p>Satisfied <br> Travelers </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="video-wrapper">
-                      <img width="1320" height="700" decoding="async"
-                        src="./assets/images/145 (34).jpg"
-                        alt="Image " title="EgyptaTours 9" class="perfmatters-lazy entered pmloaded">
-
-                      <a href="#" class="video-area video4" target="_blank" rel="noopener">
-                        <div class="icon">
-                          <svg class="video-circle" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="51px"
-                            viewBox="0 0 206 206" style="enable-background:new 0 0 206 206;" xml:space="preserve">
-                            <circle class="circle" stroke-miterlimit="10" cx="103" cy="103" r="100"></circle>
-                            <path class="circle-half top-half" stroke-width="4" stroke-miterlimit="10"
-                              d="M16.4,53C44,5.2,105.2-11.2,153,16.4s64.2,88.8,36.6,136.6"></path>
-                            <path class="circle-half bottom-half" stroke-width="4" stroke-miterlimit="10"
-                              d="M189.6,153C162,200.8,100.8,217.2,53,189.6S-11.2,100.8,16.4,53"></path>
-                          </svg>
-                          <i class="fa-solid fa-play"></i>
-                        </div>
-                        <h6>Discover Egypt</h6>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-   <!--=========================================
-        about
-  =============================================-->
-
-  <!--===============================================================
-      Our Destination Lists
-=============================================================-->
-
-  <section class="category padtobo-40">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="section-title text-center ">
-          <div class="col-12">
-            <span class="section-title-span">Popular Tours </span>
-            <h2>
-              Best Egypt Tours and Travel Packages
-            </h2>
-            <p>
-              Discover our best Egypt travel categories for Egypt trips to create your best Egypt tour plan.
-              Experience
-              the perfect Egyptian travel through our array of best categories. We offer a wide variety of tours in
-              Egypt, offering something for all types of travelers who seek historic experiences or cultural insights
-              and also want to experience luxurious relaxation. Experience the top Egypt vacation packages we offer
-              for
-              your chance to discover memorable moments throughout this historic territory. Every carefully selected
-              package provided by our company offers exceptional Egyptian vacation experiences, which include desert
-              tours alongside spectacular Nile River cruises.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="category-parent">
-        <div class="category-item ">
-          <a href="#" aria-label="category-item1">
-          </a>
-          <div class="category-card"><a href="#" aria-label="category-item1">
-              <img loading="lazy" src="assets/images/145 (1).jpg" alt="category-img">
-              <div class="category-preview">
-                <h2>Cairo Day Tours</h2>
-                <p class="text-travel-to">
-                  3 Tour
-                </p>
-
-              </div>
-            </a>
-            <div class="category-name"><a href="#" aria-label="category-item1">
-                <h3>Cairo Day Tours</h3>
-
-                <div class="category-content">
-                  <p>
-                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
-                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
-                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
-
-
-                  </p>
-                </div>
-              </a><a href="#" class="btn-effect">Explore Now</a>
-            </div>
-          </div>
-
-        </div>
-        <div class="category-item">
-          <a href="#" aria-label="category-item2">
-          </a>
-          <div class="category-card"><a href="#" aria-label="category-item2">
-              <img loading="lazy" src="assets/images/145 (3).jpg" alt="category-img">
-              <div class="category-preview">
-                <h2>Alexandria Shore Excursions</h2>
-                <p class="text-travel-to">
-                  3 Tour
-                </p>
-
-              </div>
-            </a>
-            <div class="category-name"><a href="#" aria-label="category-item2">
-                <h3>Alexandria Shore Excursions</h3>
-                <div class="category-content">
-                  <p>
-                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
-                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
-                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
-
-
-                  </p>
-                </div>
-              </a><a href="#" class="btn-effect">Explore Now</a>
-            </div>
-          </div>
-
-        </div>
-        <div class="category-item">
-          <a href="category.html
-          " aria-label="category-item3">
-          </a>
-          <div class="category-card"><a href="category.html" aria-label="category-item3">
-              <img loading="lazy" src="assets/images/145 (16).jpg" alt="category-img">
-              <div class="category-preview">
-                <h2>Accessible Hathor</h2>
-                <p class="text-travel-to">
-                  3 Tour
-                </p>
-
-              </div>
-            </a>
-            <div class="category-name"><a href="category.html" aria-label="category-item3">
-                <h3>Accessible Hathor</h3>
-                <div class="category-content">
-                  <p>
-                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
-                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
-                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
-
-
-                  </p>
-                </div>
-              </a><a href="#" class="btn-effect">Explore Now</a>
-            </div>
-          </div>
-
-        </div>
-        <div class="category-item">
-          <a href="category.html" aria-label="category-item4">
-          </a>
-          <div class="category-card"><a href="category.html" aria-label="category-item4">
-              <img loading="lazy" src="assets/images/145 (30).jpg" alt="category-img">
-              <div class="category-preview">
-                <h2>Gastronomy</h2>
-                <p class="text-travel-to">
-                  3 Tour
-                </p>
-              </div>
-            </a>
-            <div class="category-name"><a href="category.html" aria-label="category-item4">
-                <h3>Gastronomy</h3>
-                <div class="category-content">
-                  <p>
-                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
-                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
-                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
-
-
-                  </p>
-                </div>
-              </a><a href="#" class="btn-effect">Explore Now</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!--==============================================================
-      Our Destination Lists
-=============================================================-->
-
-  <!--============================================================= 
-                  Tailor Made Your Egypt Trips
-  ===============================================================-->
-
-  <div class="container padtobo-40">
-    <section class="offer-one"
-      style="background-image:url(https://themegavias.com/wp/travivu/wp-content/uploads/2024/11/bg-03.png)">
-      <div class="container">
-
-        <div class="offer-one__content sec-title">
-          <p class="offer-one__top-title">
-            Make your Ideal Egypt Itinerary Now!
-          </p>
-          <h2 class="offer-one__heading sec-title__heading mt-3">
-            Tailor Made Your Egypt Trips
-          </h2>
-          <div class="tailor-made">
-            <a href="#" class="theme-btn btn-style-three">
-              Design Your Perfect Egypt Tour Now
-            </a>
-          </div>
-
-
-
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <!--============================================================= 
-                Tailor Made Your Egypt Trips
-  ===============================================================-->
-
 
   <!--===============================================================
          Popular Tours
@@ -1197,12 +865,222 @@
   <!--===============================================================
     Popular Tours
 =============================================================-->
+  <!--============================================================= 
+                  Tailor Made Your Egypt Trips
+  ===============================================================-->
+
+  <div class="container padtobo-40">
+    <section class="offer-one"
+      style="background-image:url(https://themegavias.com/wp/travivu/wp-content/uploads/2024/11/bg-03.png)">
+      <div class="container">
+
+        <div class="offer-one__content sec-title">
+          <p class="offer-one__top-title">
+            Make your Ideal Egypt Itinerary Now!
+          </p>
+          <h2 class="offer-one__heading sec-title__heading mt-3">
+            Tailor Made Your Egypt Trips
+          </h2>
+          <div class="tailor-made d-none d-sm-block">
+            <a href="#" class="theme-btn btn-style-three">
+              Design Your Perfect Egypt Tour Now
+            </a>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!--============================================================= 
+                Tailor Made Your Egypt Trips
+  ===============================================================-->
+
+
+  <!--===============================================================
+      Our Destination Lists
+=============================================================-->
+
+  <section class="category ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center ">
+          <div class="col-12">
+            <span class="section-title-span">Popular Tours </span>
+            <h2>
+              Best Egypt Tours and Travel Packages
+            </h2>
+            <p>
+              Discover our best Egypt travel categories for Egypt trips to create your best Egypt tour plan.
+              Experience
+              the perfect Egyptian travel through our array of best categories. We offer a wide variety of tours in
+              Egypt, offering something for all types of travelers who seek historic experiences or cultural insights
+              and also want to experience luxurious relaxation. Experience the top Egypt vacation packages we offer
+              for
+              your chance to discover memorable moments throughout this historic territory. Every carefully selected
+              package provided by our company offers exceptional Egyptian vacation experiences, which include desert
+              tours alongside spectacular Nile River cruises.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="category-parent">
+        <div class="category-item">
+          <a href="#" aria-label="category-item1">
+          </a>
+          <div class="category-card"><a href="#" aria-label="category-item1">
+              <img loading="lazy" src="assets/images/145 (1).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Cairo Day Tours</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+
+              </div>
+            </a>
+            <div class="category-name"><a href="#" aria-label="category-item1">
+                <h3>Cairo Day Tours</h3>
+
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="category-item">
+          <a href="#" aria-label="category-item2">
+          </a>
+          <div class="category-card"><a href="#" aria-label="category-item2">
+              <img loading="lazy" src="assets/images/145 (3).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Alexandria Shore Excursions</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+
+              </div>
+            </a>
+            <div class="category-name"><a href="#" aria-label="category-item2">
+                <h3>Alexandria Shore Excursions</h3>
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="category-item">
+          <a href="category.html
+          " aria-label="category-item3">
+          </a>
+          <div class="category-card"><a href="category.html" aria-label="category-item3">
+              <img loading="lazy" src="assets/images/145 (16).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Accessible Hathor</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+
+              </div>
+            </a>
+            <div class="category-name"><a href="category.html" aria-label="category-item3">
+                <h3>Accessible Hathor</h3>
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="category-item">
+          <a href="category.html" aria-label="category-item4">
+          </a>
+          <div class="category-card"><a href="category.html" aria-label="category-item4">
+              <img loading="lazy" src="assets/images/145 (30).jpg" alt="category-img">
+              <div class="category-preview">
+                <h2>Gastronomy</h2>
+                <p class="text-travel-to">
+                  3 Tour
+                </p>
+              </div>
+            </a>
+            <div class="category-name"><a href="category.html" aria-label="category-item4">
+                <h3>Gastronomy</h3>
+                <div class="category-content">
+                  <p>
+                    We offer a variety of Egypt trips that allow you to experience the captivating Egyptian climate and
+                    marvel at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+                    sites like the Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+
+                  </p>
+                </div>
+              </a><a href="#" class="btn-effect">Explore Now</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- <div class="category-item">
+          <a href="category.html">
+            <div class="category-card">
+              <img loading="lazy" src="assets/images/hathor assets/asset 65.png" alt="category-img">
+              <div class="category-preview">
+                <h2>Egypt Budget Tours</h2>
+              </div>
+              <div class="category-name">
+                <h3>Luxury Cabins</h3>
+                <div class="category-content">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore sapiente voluptatibus
+                    dignissimos possimus illum necessitatibus qui laudantium mollitia nam eveniet at autem dolor, neque
+                    blanditiis, incidunt eum beatae nesciunt? Quae.
+                  </p>
+                </div>
+                <a href="#" class="btn-effect">Explore Now</a>
+              </div>
+            </div>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!--===============================================================
+      Our Destination Lists
+=============================================================-->
+
 
   <!--===============================================================
       About Us
 =============================================================-->
   <div class="container padtobo-40">
-    <section class="hero-section">
+    <section class="hero-section padtop-50">
 
       <div class="text-area">
         <div class="section-title ">
@@ -1519,236 +1397,121 @@
       tours
     =============================================================-->
 
-  <section class="w-100 travel-tour-second padtobo-40 destinations-section">
-    <div class="color-overlay position-relative padding-top padding-bottom main-box padtobo-60">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="section-title text-center ">
-            <div class="col-12">
-              <span class="section-title-span"> Tours </span>
-
-              <h2>Experience Best Egypt Tours Now</h2>
-              <p class="mx-auto mt-20 section-title-para">
-                Our trips to Egypt offer you to get the most amazing of Egypt attractions in your Egypt day tours.
-                Explore
-                the historical sites such as the pyramids of Giza and the temples of Luxor during Luxor day tours to
-                enjoy
-                the warm hospitality of the Egyptian people and the amazing food. Our Cairo day tours will help you
-                reach
-                the best sites of Cairo, like the Egyptian Museum, the Great Sphinx, and the Hanging Church. Egypt trips
-                are the best way to enjoy the historical places all over Egypt. Join us on Egypt's classic tours to have
-                an amazing experience. You can enjoy Red Sea trips through El Gouna day tours and also Marsa Alam trips,
-                where you can enjoy the charming beaches and distinctive diving trips.
-              </p>
-            </div>
+  <section class="tours padtobo-40">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-title text-center">
+          <div class="col-12">
+            <span class="section-title-span">tour</span>
+            <h2>Experience Best Egypt Tours Now</h2>
+            <p class="mx-auto mt-20 section-title-para">
+              Our trips to Egypt offer you to get the most amazing of Egypt attractions in your Egypt day tours. Explore
+              the historical sites such as the pyramids of Giza and the temples of Luxor during Luxor day tours to enjoy
+              the warm hospitality of the Egyptian people and the amazing food. Our Cairo day tours will help you reach
+              the best sites of Cairo, like the Egyptian Museum, the Great Sphinx, and the Hanging Church. Egypt trips
+              are the best way to enjoy the historical places all over Egypt. Join us on Egypt's classic tours to have
+              an amazing experience. You can enjoy Red Sea trips through El Gouna day tours and also Marsa Alam trips,
+              where you can enjoy the charming beaches and distinctive diving trips.
+            </p>
+            <button class="showMore-btn" style="display: none;">Show More</button>
           </div>
-        </div>
-
-        <div class="row g-lg-4 gy-5">
-
-          <div class="col-lg-4">
-            <div class="tab-content">
-
-              <div class="item">
-                <div class="package-box destinations-section">
-
-                 
-                  <img class="img-fluid" alt="image" src="./assets/images/gallery-14.jpg">
-
-                  <div class="spans-wrapper">
-                     <h6>
-                    <a href="#">
-                      5 Day Luxor to Aswan Nile Cruise
-
-                    </a>
-                  </h6>
-
-                  <div class="deal-meta">
-  
-                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
-                      5 Days
-                    </span>
-
-                    <span class="d-inline-block">
-                      <i class="fa-solid fa-map-location-dot"></i> Private Tour </span>
-                    
-                    <span class="d-inline-block"> <i class="fa-solid fa-jet-fighter-up"></i>
-                      Flights Included
-                    </span>
-                        <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
-                      Luxor
-                    </span> 
-                  </div>
-                
-                  <p>
-                    Experience the magic of ancient Egypt on this luxurious Nile cruise from Luxor to Aswan, featuring expert guides and premium accommodations.
-                  </p>
-                  
-                    <!-- spans wrapper -->
-                  </div>
-                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
-                    <span class="person d-inline-block p-0 m-0">
-                      <span class="price d-inline-block p-0 m-0">
-                        $405
-
-                      </span>
-                      /Person
-                    </span>
-                    <div class="grey-btn d-inline-block">
-
-                      <a href="#">Book
-                        Now</a>
-                    </div>
-
-                    <!-- package btn con -->
-                  </div>
-                  <!-- package box -->
-                </div>
-
-                <!-- item -->
-              </div>
-            </div>
-          </div>
-
-           <div class="col-lg-4">
-            <div class="tab-content">
-
-              <div class="item">
-                <div class="package-box destinations-section">
-
-                 
-                  <img class="img-fluid" alt="image" src="./assets/images/15966644721le fayan nile cruise ship.png">
-
-                  <div class="spans-wrapper">
-                     <h6>
-                    <a href="#">
-                     Historia Luxury Nile Cruise
-
-                    </a>
-                  </h6>
-
-                  <div class="deal-meta">
-  
-                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
-                   Mon/Fri
-
-                    </span>
-
-                    <span class="d-inline-block">
-                    <i class="fa-solid fa-star"></i> Ultra Luxury </span>
-                    
-                   
-                        <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
-                      Modern Luxury
-                    </span> 
-                  </div>
-                
-                  <p>
-                    Experience the magic of ancient Egypt on this luxurious Nile cruise from Luxor to Aswan, featuring expert guides and premium accommodations.
-                  </p>
-                  
-                    <!-- spans wrapper -->
-                  </div>
-                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
-                    <span class="person d-inline-block p-0 m-0">
-                      <span class="price d-inline-block p-0 m-0">
-                        $405
-
-                      </span>
-                      /Person
-                    </span>
-                    <div class="grey-btn d-inline-block">
-
-                      <a href="#">Book
-                        Now</a>
-                    </div>
-
-                    <!-- package btn con -->
-                  </div>
-                  <!-- package box -->
-                </div>
-
-                <!-- item -->
-              </div>
-            </div>
-          </div>
-
-
-           <div class="col-lg-4">
-            <div class="tab-content">
-
-              <div class="item">
-                <div class="package-box destinations-section">
-
-                 
-                  <img class="img-fluid" alt="image" src="./assets/images/spencer-davis-6UWwgpC4n6Y-unsplash.jpg">
-
-                  <div class="spans-wrapper">
-                     <h6>
-                    <a href="#">
-                      7 Day Cairo and Nile Cruise
-
-                    </a>
-                  </h6>
-
-                  <div class="deal-meta">
-  
-                    <span class="d-inline-block"> <i class="fas fa-calendar-alt"></i>
-                      5 Days
-                    </span>
-
-                    <span class="d-inline-block">
-                      <i class="fa-solid fa-map-location-dot"></i> Private Tour </span>
-                    
-                  
-                        <span class="d-inline-block"> <i class="fa-solid fa-location-dot"></i>
-                      Cairo + Cruise
-                    </span> 
-                  </div>
-                
-                  <p>
-                    Experience the magic of ancient Egypt on this luxurious Nile cruise from Luxor to Aswan, featuring expert guides and premium accommodations.
-                  </p>
-                  
-                    <!-- spans wrapper -->
-                  </div>
-                  <div class="pkg-btn-con d-flex align-items-center justify-content-between">
-                    <span class="person d-inline-block p-0 m-0">
-                      <span class="price d-inline-block p-0 m-0">
-                        $405
-
-                      </span>
-                      /Person
-                    </span>
-                    <div class="grey-btn d-inline-block">
-
-                      <a href="#">Book
-                        Now</a>
-                    </div>
-
-                    <!-- package btn con -->
-                  </div>
-                  <!-- package box -->
-                </div>
-
-                <!-- item -->
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
-
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="tour-card position-relative">
+            <a href="tour-details.html"> <img loading="lazy" src="assets/images/145 (11).jpg" alt="tour-card-img"></a>
+            <div class="tour-card-content">
+              <div class="tour-duration"><i class="fa-regular fa-clock me-2"></i><span>5 days </span></div>
+              <a href="tour-details.html">
+                <h3 class="tour-title mb-2">5 Days Cairo & Luxor – Best Travel Deals to Egypt</h3>
+              </a>
+              <div class="tour-card-text">
+                <p class="tour-para">
+                  Indulge in our premium Nile cruise experience with spacious suites featuring panoramic views, private
+                  balconies, and elegant Egyptian decor. Perfect for those seeking a luxurious journey through ancient
+                  Egypt.
+                </p>
+              </div>
+              <div class="tour-card-footer d-flex align-items-center justify-content-between">
+                <div class="tour-price position-relative">
+                  <span class="tour-price-title">From :</span>
+                  <del class="deleted-price mr-3">$4500</del>
+                  <span class="price-value">$4250</span>
+                </div>
+                <div class="tour-card-cta">
+                  <a href="tour-details.html" class="btn-effect">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="tour-card position-relative">
+            <a href="tour-details.html"> <img loading="lazy" src="assets/images/145 (16).jpg" alt="tour-card-img"></a>
+            <div class="tour-card-content">
+              <div class="tour-duration"><i class="fa-regular fa-clock me-2"></i><span>5 days</span></div>
+              <a href="tour-details.html">
+                <h3 class="tour-title mb-2">5 Days Cairo & Luxor – Best Travel Deals to Egypt</h3>
+              </a>
+              <div class="tour-card-text">
+                <p class="tour-para">
+                  Our deluxe cabins offer stunning Nile views, modern amenities, and traditional Egyptian design
+                  elements. Experience the perfect balance of comfort and cultural immersion.
+                </p>
+              </div>
+              <div class="tour-card-footer d-flex align-items-center justify-content-between">
+                <div class="tour-price position-relative">
+                  <span class="tour-price-title">From :</span>
+                  <del class="deleted-price mr-3">$3500</del>
+                  <span class="price-value">$3000</span>
+                </div>
+                <div class="tour-card-cta">
+                  <a href="tour-details.html" class="btn-effect">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="tour-card position-relative">
+            <a href="tour-details.html"> <img loading="lazy" src="assets/images/145 (37).jpg" alt="tour-card-img"></a>
+            <div class="tour-card-content">
+              <div class="tour-duration"><i class="fa-regular fa-clock me-2"></i><span>5 days </span></div>
+              <a href="tour-details.html">
+                <h3 class="tour-title mb-2">5 Days Cairo & Luxor – Best Travel Deals to Egypt</h3>
+              </a>
+              <div class="tour-card-text">
+                <p class="tour-para">
+                  Combine the best of both worlds with our premium hotel and cruise package. Enjoy luxury accommodations
+                  both on land and water, with seamless transitions between your hotel stay and Nile cruise experience.
+                </p>
+              </div>
+              <div class="tour-card-footer d-flex align-items-center justify-content-between">
+                <div class="tour-price position-relative">
+                  <span class="tour-price-title">From :</span>
+                  <del class="deleted-price mr-3">$1500</del>
+                  <span class="price-value">$1200</span>
+                </div>
+                <div class="tour-card-cta">
+                  <a href="tour-details.html" class="btn-effect">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
   </section>
 
   <!--===============================================================
     tours
     =============================================================-->
+
   <!--===============================================================
-        testimonial
-  =============================================================-->
+ testimonial
+    =============================================================-->
+
 
   <section class="testimonial padtobo-40"
     style="background-image: url(https://routehaven.boomdevstheme.com/wp-content/uploads/2023/11/bg-1.png)">
@@ -1812,9 +1575,10 @@
     </div>
   </section>
 
+
   <!--===============================================================
-           testimonial
-  =============================================================-->
+ testimonial
+    =============================================================-->
 
   <!--=================================================================
                             Start FAQ Section 
@@ -2104,13 +1868,6 @@
   ======================================================-->
   <div class="d-block d-md-none d-lg-none d-xl-none">
     <div class="menu-mobile-fixed d-flex align-items-center justify-content-between">
-
-      <a href="#">
-        <img loading="lazy" alt="mobile-contact" src="assets/images/call-center.svg" />
-        <h5>Homa</h5>
-      </a>
-
-
       <a href="http://wa.me/+201270496896" target="_blank">
         <img loading="lazy" alt="mobile-whatsapp" src="assets/images/whatsapp.svg" />
         <h5>Whats App</h5>
@@ -2119,7 +1876,10 @@
         <img loading="lazy" alt="mobile-call" src="assets/images/phone.svg" />
         <h5>Call</h5>
       </a>
-      
+      <a href="#">
+        <img loading="lazy" alt="mobile-contact" src="assets/images/call-center.svg" />
+        <h5>Contact Us</h5>
+      </a>
       <a href="#"> <img loading="lazy" src="assets/images/tailor-footer.svg" alt="tailor-footer" />
         <h5>Book Now</h5>
       </a>
@@ -2128,7 +1888,6 @@
   <!--===========================================
                 end menu-mobile box
      ===========================================-->
-
 
   <!---==============================================================
                   Librairies
@@ -2140,13 +1899,14 @@
   <!--  owl.carousel js  -->
   <script src="./assets/lib/owlcarousel/owl.carousel.min.js"></script>
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4//owl.carousel.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
   <!-- lity JS file -->
   <script src="assets/js/librairies/lity.min.js"></script>
   <!-- Swiper Slider js  -->
   <script src="./assets/lib/swiper/swiper-bundle.min.js"></script>
   <!-- My Custom Js  -->
   <script src="./assets/js/script.js"></script>
+
 
   <script>
     const swiper = new Swiper(".heroSwiper", {
@@ -2162,6 +1922,50 @@
       effect: "fade"
     });
   </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dropdownAreas = document.querySelectorAll('.has-dropdown .dropdown-parent');
+
+      dropdownAreas.forEach(dropdown => {
+        const items = dropdown.querySelectorAll('.main-menu > li');
+        const firstItem = items[0];
+
+        const activateItem = (itemToActivate) => {
+          items.forEach(item => {
+            item.classList.remove('active');
+            const submenu = item.querySelector('.sub-menu');
+            if (submenu) submenu.classList.remove('active');
+          });
+
+          itemToActivate.classList.add('active');
+          const submenu = itemToActivate.querySelector('.sub-menu');
+          if (submenu) submenu.classList.add('active');
+        };
+
+
+        activateItem(firstItem);
+
+        items.forEach(item => {
+          item.addEventListener('mouseenter', () => {
+            activateItem(item);
+          });
+
+          item.addEventListener('mouseleave', () => {
+
+            activateItem(firstItem);
+          });
+        });
+
+
+        dropdown.addEventListener('mouseleave', () => {
+          activateItem(firstItem);
+        });
+      });
+    });
+
+  </script>
+
 </body>
 
 </html>
